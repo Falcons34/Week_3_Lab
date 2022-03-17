@@ -63,7 +63,7 @@ public class Main {
 		quotaMap.put("Tobin", "4MB");
 		quotaMap.put("Bruce", "8MB");
 
-		//foreach key value
+		//foreach key value, started writing iterator but gave up 😏
 		accountsMap.forEach((k, v) -> {
 			if (quotaMap.containsKey(v)) {
 				System.out.println(k + " " + v + " " + quotaMap.get(v));
